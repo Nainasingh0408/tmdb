@@ -1,0 +1,42 @@
+/* General Styles */
+.no-results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 22.5rem;
+  background: url("https://media.themoviedb.org/t/p/w3840_and_h1200_multi_faces_filter(duotone,00192f,00baff)/npD65vPa4vvn1ZHpp3o05A5vdKT.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #333;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  border-radius: 32px;
+}
+
+/* "Oops!" Text */
+.oops-text {
+  font-size: 6rem;
+  font-weight: bold;
+  background: linear-gradient(gray,lightgray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+/* Message Text */
+.message-text {
+  font-size: 1.5rem;
+  max-width: 600px;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: whitesmoke;
+}
+
+.search-input {
+  font-weight: bold;
+}
+

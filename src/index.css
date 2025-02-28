@@ -1,0 +1,301 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: content-box;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  /* width:100%; */
+  height:40px;
+  background-color:#072747;
+}
+
+.logo {
+  width:154px;
+  height:20px;
+  padding:20px;
+}
+.menu{
+  display: flex;
+  flex-grow:1;
+}
+.menu>ul{
+  display: flex;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+.menu>ul>li{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  padding:13px;
+  cursor: pointer;
+}
+.mlink,.tlink{
+   color: white !important;
+   
+}
+
+.nav-items {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: flex-end;
+  flex:none;
+}
+.nav-items>ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding:0;
+  margin:0;
+}
+.nav-items > ul > li {
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  padding:13px;
+  cursor: pointer;   
+  align-items: center; 
+}
+.nav-items > ul > li.add{
+  font-size: 30px;
+}
+.nav-items > ul > li > button{
+  background-color:#072747 ;
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  padding:4px;
+  border-radius:10%;
+  border-color:white;
+}
+.search-icon{
+    width:30px;
+    height:30px;
+    cursor: pointer;    
+}
+
+/* Container for Cards */
+.res-container {
+  /* background: url("https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg"); */
+  height: 65vh;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+  margin:10px;
+  scroll-behavior: smooth;
+ 
+}
+
+/* Movie Card Styles */
+.res-card {
+  margin: 5px;
+  width: 166.7777px;
+  height: 250px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px white;
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px white;
+}
+
+/* Movie Image Container */
+.res-logo {
+  width: inherit;
+  height: inherit;
+  /* overflow: hidden; */
+}
+.res-logo img {
+  border-radius: 8px;
+  height: inherit;
+  object-fit:contain;
+}
+
+/* Movie Details */
+.res-details {
+  padding: 5px;
+  width: 166.7777px;
+  text-align: center;
+}
+.res-details h2 {
+  font-size: 20px;
+  margin: 5px 0;
+  padding:5px;
+  color:black;
+}
+.res-details h3 {
+  font-size: 14px;
+  margin: 5px 0;
+  color:black;
+}
+.res-details h4 {
+  font-size: 16px;
+  margin: 5px 0;
+  color:black
+}
+.Trending-Word{
+  padding: 16px;
+  font-size: 28px;
+  font-family: 'Roboto', sans-serif;
+  margin-left:8px;
+}
+/* login */
+.login {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#072747;
+  color: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 13px;
+}
+
+/* Shimmer (Loading) Styles */
+.shimmer-container {
+  display: flex; 
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 20px;
+  justify-content: center; 
+}
+.shimmer-cards {
+  margin: 5px;
+  padding: 5px;
+  width: 200px;
+  height: 300px;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.shimmer-cards::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.2) 75%);
+  animation: shimmer 1.5s infinite;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding:10px;
+  height:300px;
+  background-color:#072747;
+}
+.footer-img{
+    width:154px;
+    height:100px;
+    padding:100px;
+    position: relative;
+}
+.footer-menu{
+  display: flex;
+  flex-grow:1;
+}
+.footer-menu>ul{
+  display: flex;
+  list-style-type: none;
+  text-align: left;
+  align-items: anchor-center;
+}
+.footer-menu>ul>li{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding:20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.footer-menu>ul>li>ul{
+  display:flex;
+  list-style-type:none;
+  flex-direction:column;
+  text-align: left;
+}
+.footer-menu>ul>li>ul>li{
+  color:white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding:4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.progress{ 
+  position: absolute;
+  bottom: -18px; 
+  left: 10px; 
+  width: 35px; 
+  height: 35px; 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  background-color:#282a36;
+  background: linear-gradient(135deg, #2a2929bd, #4f505270); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.progress:hover {
+  transform: scale(1.1); 
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); 
+}
+
+
+/* Target the sc rollbar */
+::-webkit-scrollbar {
+  width: 1px;  
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: #ffff; 
+  border-radius: 10px;
+}
+
+/* Handle (scroll thumb) */
+::-webkit-scrollbar-thumb {
+  background: #ffff; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffff; 
+}
+
+
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+

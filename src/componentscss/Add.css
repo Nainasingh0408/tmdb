@@ -1,0 +1,53 @@
+.add {
+    position: absolute;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding: 13px;
+    cursor: pointer;   
+    align-items: center; 
+    bottom: -34px;
+    left: 143px;
+    border: none;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Plus/Cross container */
+.add {
+    position: absolute;
+    top:212px;
+    left:137px;
+}
+
+/* The two lines of the plus sign */
+.add .line {
+    position: absolute;
+    width: 20px;
+    height: 4px;
+    background: rgb(59, 105, 3);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Horizontal Line */
+.add .horizontal {
+    transform: rotate(0deg);
+}
+
+/* Vertical Line */
+.add .vertical {
+    transform: rotate(90deg);
+}
+
+/* When button is active, rotate the lines to form an "X" */
+.add.active .horizontal {
+    transform: rotate(45deg);
+    background-color: rgb(207, 26, 26);
+}
+
+.add.active .vertical {
+    transform: rotate(-45deg);
+    background-color: rgb(207, 26, 26);
+}

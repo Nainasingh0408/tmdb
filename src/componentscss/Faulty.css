@@ -1,0 +1,77 @@
+.select-button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .select-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .selected-movies {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .outerwrapper{
+    height: 65vh;
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    margin:10px;
+    scroll-behavior: smooth;
+    width:100%;
+  }
+  
+  .dropdown-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #movie-select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .movie_card_wrapper p {
+    text-align: center;
+    color: #666;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .dropdown-container {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #movie-select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .movie_card_wrapper p {
+    text-align: center;
+    color: #666;
+  }
+  
+  .movie-select-head {
+    font-size: large;
+    font-weight: 700;
+  }
+  

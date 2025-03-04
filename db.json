@@ -1,12 +1,12 @@
 {
   "favorites": [
     {
-      "id": 1064213,
+      "id": "1064213",
       "backdrop_path": "/kEYWal656zP5Q2Tohm91aw6orlT.jpg",
       "title": "Anora",
       "original_title": "Anora",
       "overview": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
-      "poster_path": "/3bXdP1k2pzpmVD8GWXkC8VhmUKP.jpg",
+      "poster_path": "/cgXk2tNYhJZLXdBDO5DidAVzQ82.jpg",
       "media_type": "movie",
       "adult": false,
       "original_language": "en",
@@ -15,11 +15,11 @@
         35,
         10749
       ],
-      "popularity": 726.2,
+      "popularity": 1016.68,
       "release_date": "2024-10-14",
       "video": false,
-      "vote_average": 7.102,
-      "vote_count": 1241
+      "vote_average": 7.1,
+      "vote_count": 1271
     },
     {
       "id": 823219,
@@ -36,30 +36,67 @@
         14,
         12
       ],
-      "popularity": 632.705,
+      "popularity": 885.787,
       "release_date": "2024-08-29",
       "video": false,
       "vote_average": 8.3,
-      "vote_count": 1257
+      "vote_count": 1266
+    },
+    {
+      "id": 1326059,
+      "adult": false,
+      "backdrop_path": "/r4Xn4eWOyxye8m3dR80I8TPhfE5.jpg",
+      "genre_ids": [
+        28,
+        80,
+        18
+      ],
+      "original_language": "es",
+      "original_title": "Pimpinero: Sangre y gasolina",
+      "overview": "When Juan, a young gasoline smuggler, is forced to work for a mysterious organization in the desert bordering Colombia and Venezuela, his girlfriend Diana embarks on a journey to uncover the secrets that inhabit this no-man’s-land.",
+      "popularity": 51.577,
+      "poster_path": "/kukotsflOSVGXQezuXohj41dbfL.jpg",
+      "release_date": "2024-10-10",
+      "title": "Pimpinero: Blood and Oil",
+      "video": false,
+      "vote_average": 6.4,
+      "vote_count": 112
     },
     {
       "id": 549509,
-      "backdrop_path": "/iKXXPYBWQ0B6BMRHAFbg3wKafWb.jpg",
-      "title": "The Brutalist",
-      "original_title": "The Brutalist",
-      "overview": "Escaping post-war Europe, visionary architect László Toth arrives in America to rebuild his life. On his own in a strange new country, a wealthy industrialist recognizes his talent. But power and legacy come at a heavy cost...",
-      "poster_path": "/vP7Yd6couiAaw9jgMd5cjMRj3hQ.jpg",
-      "media_type": "movie",
       "adult": false,
-      "original_language": "en",
+      "backdrop_path": "/iKXXPYBWQ0B6BMRHAFbg3wKafWb.jpg",
       "genre_ids": [
         18
       ],
-      "popularity": 760.893,
+      "original_language": "en",
+      "original_title": "The Brutalist",
+      "overview": "Escaping post-war Europe, visionary architect László Toth arrives in America to rebuild his life. On his own in a strange new country, a wealthy industrialist recognizes his talent. But power and legacy come at a heavy cost...",
+      "popularity": 1065.25,
+      "poster_path": "/vP7Yd6couiAaw9jgMd5cjMRj3hQ.jpg",
       "release_date": "2024-12-20",
+      "title": "The Brutalist",
       "video": false,
       "vote_average": 7.1,
-      "vote_count": 671
+      "vote_count": 685
+    },
+    {
+      "id": 429,
+      "adult": false,
+      "backdrop_path": "/x4biAVdPVCghBlsVIzB6NmbghIz.jpg",
+      "genre_ids": [
+        37
+      ],
+      "original_language": "it",
+      "original_title": "Il buono, il brutto, il cattivo",
+      "overview": "While the Civil War rages on between the Union and the Confederacy, three men – a quiet loner, a ruthless hitman, and a Mexican bandit – comb the American Southwest in search of a strongbox containing $200,000 in stolen gold.",
+      "popularity": 77.924,
+      "poster_path": "/bX2xnavhMYjWDoZp1VM6VnU1xwe.jpg",
+      "release_date": "1966-12-22",
+      "title": "The Good, the Bad and the Ugly",
+      "video": false,
+      "vote_average": 8.462,
+      "vote_count": 8833
     }
   ]
 }

@@ -38,13 +38,12 @@ const AppLayout = () => {
   return listofRes.length === 0 ? (
     <Shimmer />
   ) : (
-    <div className="AppLayout">
-      <div className="res-container">
+    
+    <><h2 className='Trending-Word'>Trending</h2><div className="res-container">
         {listofRes.map((movie) => (
           <RestaurantCard key={movie.id} apiData={movie} />
         ))}
-      </div>
-    </div>
+      </div></>
   );
 };
 

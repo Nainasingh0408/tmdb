@@ -1,172 +1,65 @@
 {
   "favorites": [
     {
-      "id": 1405338,
-      "backdrop_path": "/hD2SN5bbqxk0kcRmsATJkXObgnZ.jpg",
-      "title": "Demon City",
-      "original_title": "Demon City 鬼ゴロシ",
-      "overview": "Framed for his family's murder and left for dead, an ex-hitman will stop at nothing to exact revenge on the masked \"demons\" who have taken over his city.",
-      "poster_path": "/3edgGAzjzaZwMcvEiTFElIztmF2.jpg",
+      "id": 1064213,
+      "backdrop_path": "/kEYWal656zP5Q2Tohm91aw6orlT.jpg",
+      "title": "Anora",
+      "original_title": "Anora",
+      "overview": "A young sex worker from Brooklyn gets her chance at a Cinderella story when she meets and impulsively marries the son of an oligarch. Once the news reaches Russia, her fairytale is threatened as his parents set out to get the marriage annulled.",
+      "poster_path": "/3bXdP1k2pzpmVD8GWXkC8VhmUKP.jpg",
       "media_type": "movie",
       "adult": false,
-      "original_language": "ja",
+      "original_language": "en",
       "genre_ids": [
-        28,
-        80,
-        53
+        18,
+        35,
+        10749
       ],
-      "popularity": 42.987,
-      "release_date": "2025-02-26",
+      "popularity": 726.2,
+      "release_date": "2024-10-14",
       "video": false,
-      "vote_average": 4.4,
-      "vote_count": 10
+      "vote_average": 7.102,
+      "vote_count": 1241
     },
     {
-      "id": 243881,
-      "backdrop_path": "/6VB3Z9kWavYnyAyUgpQZJ8q2BjK.jpg",
-      "name": "House of David",
-      "original_name": "House of David",
-      "overview": "Tells the story of the ascent of the biblical figure, David, who becomes the most celebrated king of Israel. The series follows the once-mighty King Saul as he falls victim to his own pride. At the direction of God, the prophet Samuel anoints an unlikely, outcast teenager as the new king.",
-      "poster_path": "/64ooH4xSiMGAFG11emiGv3pdVkH.jpg",
-      "media_type": "tv",
+      "id": 823219,
+      "backdrop_path": "/b3mdmjYTEL70j7nuXATUAD9qgu4.jpg",
+      "title": "Flow",
+      "original_title": "Straume",
+      "overview": "A solitary cat, displaced by a great flood, finds refuge on a boat with various species and must navigate the challenges of adapting to a transformed world together.",
+      "poster_path": "/imKSymKBK7o73sajciEmndJoVkR.jpg",
+      "media_type": "movie",
+      "adult": false,
+      "original_language": "lv",
+      "genre_ids": [
+        16,
+        14,
+        12
+      ],
+      "popularity": 632.705,
+      "release_date": "2024-08-29",
+      "video": false,
+      "vote_average": 8.3,
+      "vote_count": 1257
+    },
+    {
+      "id": 549509,
+      "backdrop_path": "/iKXXPYBWQ0B6BMRHAFbg3wKafWb.jpg",
+      "title": "The Brutalist",
+      "original_title": "The Brutalist",
+      "overview": "Escaping post-war Europe, visionary architect László Toth arrives in America to rebuild his life. On his own in a strange new country, a wealthy industrialist recognizes his talent. But power and legacy come at a heavy cost...",
+      "poster_path": "/vP7Yd6couiAaw9jgMd5cjMRj3hQ.jpg",
+      "media_type": "movie",
       "adult": false,
       "original_language": "en",
       "genre_ids": [
         18
       ],
-      "popularity": 32.134,
-      "first_air_date": "2025-02-27",
-      "vote_average": 8.5,
-      "vote_count": 7,
-      "origin_country": [
-        "US"
-      ]
-    },
-    {
-      "id": 1405338,
-      "backdrop_path": "/hD2SN5bbqxk0kcRmsATJkXObgnZ.jpg",
-      "title": "Demon City",
-      "original_title": "Demon City 鬼ゴロシ",
-      "overview": "Framed for his family's murder and left for dead, an ex-hitman will stop at nothing to exact revenge on the masked \"demons\" who have taken over his city.",
-      "poster_path": "/3edgGAzjzaZwMcvEiTFElIztmF2.jpg",
-      "media_type": "movie",
-      "adult": false,
-      "original_language": "ja",
-      "genre_ids": [
-        28,
-        80,
-        53
-      ],
-      "popularity": 42.987,
-      "release_date": "2025-02-26",
+      "popularity": 760.893,
+      "release_date": "2024-12-20",
       "video": false,
-      "vote_average": 4.4,
-      "vote_count": 10
-    },
-    {
-      "id": 1405338,
-      "backdrop_path": "/hD2SN5bbqxk0kcRmsATJkXObgnZ.jpg",
-      "title": "Demon City",
-      "original_title": "Demon City 鬼ゴロシ",
-      "overview": "Framed for his family's murder and left for dead, an ex-hitman will stop at nothing to exact revenge on the masked \"demons\" who have taken over his city.",
-      "poster_path": "/3edgGAzjzaZwMcvEiTFElIztmF2.jpg",
-      "media_type": "movie",
-      "adult": false,
-      "original_language": "ja",
-      "genre_ids": [
-        28,
-        80,
-        53
-      ],
-      "popularity": 42.987,
-      "release_date": "2025-02-26",
-      "video": false,
-      "vote_average": 4.4,
-      "vote_count": 10
-    },
-    {
-      "id": 1405338,
-      "backdrop_path": "/hD2SN5bbqxk0kcRmsATJkXObgnZ.jpg",
-      "title": "Demon City",
-      "original_title": "Demon City 鬼ゴロシ",
-      "overview": "Framed for his family's murder and left for dead, an ex-hitman will stop at nothing to exact revenge on the masked \"demons\" who have taken over his city.",
-      "poster_path": "/3edgGAzjzaZwMcvEiTFElIztmF2.jpg",
-      "media_type": "movie",
-      "adult": false,
-      "original_language": "ja",
-      "genre_ids": [
-        28,
-        80,
-        53
-      ],
-      "popularity": 42.987,
-      "release_date": "2025-02-26",
-      "video": false,
-      "vote_average": 4.4,
-      "vote_count": 10
-    },
-    {
-      "id": 1405338,
-      "backdrop_path": "/hD2SN5bbqxk0kcRmsATJkXObgnZ.jpg",
-      "title": "Demon City",
-      "original_title": "Demon City 鬼ゴロシ",
-      "overview": "Framed for his family's murder and left for dead, an ex-hitman will stop at nothing to exact revenge on the masked \"demons\" who have taken over his city.",
-      "poster_path": "/3edgGAzjzaZwMcvEiTFElIztmF2.jpg",
-      "media_type": "movie",
-      "adult": false,
-      "original_language": "ja",
-      "genre_ids": [
-        28,
-        80,
-        53
-      ],
-      "popularity": 42.987,
-      "release_date": "2025-02-26",
-      "video": false,
-      "vote_average": 4.4,
-      "vote_count": 10
-    },
-    {
-      "id": 232342,
-      "backdrop_path": "/pp4jnkOneeb4FFcni9VUCyo18sZ.jpg",
-      "name": "Toxic Town",
-      "original_name": "Toxic Town",
-      "overview": "When dozens of babies in Corby are born with disabilities, their mothers embark on a battle to hold those responsible to account.",
-      "poster_path": "/d5n1BQpcDe2GBIXJ2y39qxnEsyp.jpg",
-      "media_type": "tv",
-      "adult": false,
-      "original_language": "en",
-      "genre_ids": [
-        18
-      ],
-      "popularity": 29.723,
-      "first_air_date": "2025-02-27",
-      "vote_average": 9.7,
-      "vote_count": 3,
-      "origin_country": [
-        "GB"
-      ]
-    },
-    {
-      "id": 244623,
-      "backdrop_path": "/xY3RLTXgV0IHmyPAE97p3ePWY1R.jpg",
-      "name": "Running Point",
-      "original_name": "Running Point",
-      "overview": "A reformed party girl must prove herself as a businesswoman when she's unexpectedly put in charge of her family's pro basketball team.",
-      "poster_path": "/q8KnHFt3igvQXKYDLtfERSYAY7F.jpg",
-      "media_type": "tv",
-      "adult": false,
-      "original_language": "en",
-      "genre_ids": [
-        35
-      ],
-      "popularity": 29.588,
-      "first_air_date": "2025-02-27",
-      "vote_average": 7.3,
-      "vote_count": 7,
-      "origin_country": [
-        "US"
-      ]
+      "vote_average": 7.1,
+      "vote_count": 671
     }
   ]
 }
